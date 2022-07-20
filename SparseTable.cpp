@@ -1,9 +1,8 @@
 template<typename T, class Compare = std::less<T>> 
 struct Sparse {
-   int n;
-   vector<int> log;
-   vector<vector<T>> st;
-	 
+  int n;
+  vector<int> log;
+  vector<vector<T>> st;
 	Sparse(vector<T> a) {
 		n = a.size();
 		log.assign(n + 1, 0);
