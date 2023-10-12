@@ -1,29 +1,4 @@
-#pragma comment(linker,"/STACK:100000000000,100000000000")
- 
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <algorithm>
-#include <string>
-#include <cstring>
-#include <vector>
-#include <cmath>
-#include <map>
-#include <stack>
-#include <set>
-#include <iomanip>
-#include <queue>
-#include <map>
-#include <functional>
-#include <list>
-#include <sstream>
-#include <ctime>
-#include <climits>
-#include <bitset>
-#include <list>
-#include <cassert>
-#include <complex>
- 
+#include <bits/stdc++.h>
 using namespace std;
  
 /* Constants begin */
