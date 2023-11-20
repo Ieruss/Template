@@ -1,6 +1,6 @@
 struct Set{
 	int l;
-	ll sum = 0;
+	long long sum = 0;
 	multiset<ll> S, T;
 	void add(int x) {
 		if (sz(S) < l) {
